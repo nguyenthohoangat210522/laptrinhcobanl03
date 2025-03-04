@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a=100,b,c;
+    scanf("%d",&b);
+    c=a+b;
+    if(c>500) printf(" co tong lon hon 500");
+    else if (c<500) printf(" co tong nho hon 500");
+    else if (c=500) printf(" co tong bang 500");
+
+
+    return 0;
+}
